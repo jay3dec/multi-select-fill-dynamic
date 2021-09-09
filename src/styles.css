@@ -1,0 +1,15 @@
+/* .multiselect-item-checkbox div{
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+} */
+
+
+.item1{
+    overflow-x: hidden !important;
+}
+
+.multiselect-item-checkbox{
+    width: 300px;
+}

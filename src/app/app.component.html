@@ -1,0 +1,41 @@
+<div class="drop-container">
+  <form [formGroup]="form">
+    
+    <div class="dropdown-container">
+      <div class="country">
+        <ng-multiselect-dropdown class="my-class" formControlName="country"
+          [placeholder]="'Countries'"
+          [settings]="countryDropdownSettings"
+          [data]="countries"
+          >
+          </ng-multiselect-dropdown>
+         
+      </div>
+      <div class="state">
+        <ng-multiselect-dropdown formControlName="state"
+          [placeholder]="'State'"
+          [settings]="countryDropdownSettings"
+          [data]="states"
+          >
+          </ng-multiselect-dropdown>
+      </div>
+      <div class="city">
+        <ng-multiselect-dropdown formControlName="city"
+          [placeholder]="'City'"
+          [settings]="countryDropdownSettings"
+          [data]="cities"
+          >
+          </ng-multiselect-dropdown>
+      </div>
+    </div>
+      
+    
+
+  
+  </form>
+  <div class="action">
+    <button (click)="handleButtonClick()">Press button</button>
+    <!-- <button (click)="handleResetClick()">Reset</button> -->
+  </div>
+  
+</div>

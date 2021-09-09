@@ -1,0 +1,29 @@
+input[type="checkbox"]{
+    color: red;
+}
+
+.drop-container{
+    margin: 100px;
+}
+
+.action{
+    margin-top: 10px;
+}
+.validation{
+    color: red;
+}
+
+.dropdown-container{
+    display: flex;
+    width: 100%;
+}
+
+.country, .state, .city{
+    margin: 20px;
+    width: 30%;
+}
+
+
+.my-class .multiselect-dropdown .dropdown-list .multiselect-item-checkbox{
+    width: 300px !important;
+}
